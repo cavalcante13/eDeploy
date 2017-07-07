@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Scheme
-   LastUpgradeVersion = "0830"
+   LastUpgradeVersion = "0700"
    version = "1.3">
    <BuildAction
       parallelizeBuildables = "YES"
@@ -14,10 +14,10 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "C38620371F0F84C100DBDE24"
-               BuildableName = "TesteEdeploy.app"
-               BlueprintName = "TesteEdeploy"
-               ReferencedContainer = "container:TesteEdeploy.xcodeproj">
+               BlueprintIdentifier = "9ECC94817EFB9DC0674D13D4C6D72DEF"
+               BuildableName = "Pods_TesteEdeployTests.framework"
+               BlueprintName = "Pods-TesteEdeployTests"
+               ReferencedContainer = "container:Pods.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -28,26 +28,7 @@
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
       shouldUseLaunchSchemeArgsEnv = "YES">
       <Testables>
-         <TestableReference
-            skipped = "NO">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "C386204B1F0F84C100DBDE24"
-               BuildableName = "TesteEdeployTests.xctest"
-               BlueprintName = "TesteEdeployTests"
-               ReferencedContainer = "container:TesteEdeploy.xcodeproj">
-            </BuildableReference>
-         </TestableReference>
       </Testables>
-      <MacroExpansion>
-         <BuildableReference
-            BuildableIdentifier = "primary"
-            BlueprintIdentifier = "C38620371F0F84C100DBDE24"
-            BuildableName = "TesteEdeploy.app"
-            BlueprintName = "TesteEdeploy"
-            ReferencedContainer = "container:TesteEdeploy.xcodeproj">
-         </BuildableReference>
-      </MacroExpansion>
       <AdditionalOptions>
       </AdditionalOptions>
    </TestAction>
@@ -61,16 +42,15 @@
       debugDocumentVersioning = "YES"
       debugServiceExtension = "internal"
       allowLocationSimulation = "YES">
-      <BuildableProductRunnable
-         runnableDebuggingMode = "0">
+      <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "C38620371F0F84C100DBDE24"
-            BuildableName = "TesteEdeploy.app"
-            BlueprintName = "TesteEdeploy"
-            ReferencedContainer = "container:TesteEdeploy.xcodeproj">
+            BlueprintIdentifier = "9ECC94817EFB9DC0674D13D4C6D72DEF"
+            BuildableName = "Pods_TesteEdeployTests.framework"
+            BlueprintName = "Pods-TesteEdeployTests"
+            ReferencedContainer = "container:Pods.xcodeproj">
          </BuildableReference>
-      </BuildableProductRunnable>
+      </MacroExpansion>
       <AdditionalOptions>
       </AdditionalOptions>
    </LaunchAction>
@@ -80,16 +60,6 @@
       savedToolIdentifier = ""
       useCustomWorkingDirectory = "NO"
       debugDocumentVersioning = "YES">
-      <BuildableProductRunnable
-         runnableDebuggingMode = "0">
-         <BuildableReference
-            BuildableIdentifier = "primary"
-            BlueprintIdentifier = "C38620371F0F84C100DBDE24"
-            BuildableName = "TesteEdeploy.app"
-            BlueprintName = "TesteEdeploy"
-            ReferencedContainer = "container:TesteEdeploy.xcodeproj">
-         </BuildableReference>
-      </BuildableProductRunnable>
    </ProfileAction>
    <AnalyzeAction
       buildConfiguration = "Debug">
