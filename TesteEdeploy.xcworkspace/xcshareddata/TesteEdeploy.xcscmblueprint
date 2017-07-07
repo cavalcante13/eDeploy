@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "D6F73F0EB6C9D0932ADECCCBA9A9CD750B1B2624",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "921DEC6AFF4B97A1B9E417798015C989C1D0AE01" : 9223372036854775807,
+    "D6F73F0EB6C9D0932ADECCCBA9A9CD750B1B2624" : 9223372036854775807
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "C9BEE622-271D-4F03-BCA5-EE7EB8E8B7E7",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "921DEC6AFF4B97A1B9E417798015C989C1D0AE01" : "PunkBeer\/",
+    "D6F73F0EB6C9D0932ADECCCBA9A9CD750B1B2624" : "eDeploy\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "TesteEdeploy",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "TesteEdeploy.xcworkspace",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/cavalcante13\/PunkBeer.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "921DEC6AFF4B97A1B9E417798015C989C1D0AE01"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/cavalcante13\/eDeploy.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "D6F73F0EB6C9D0932ADECCCBA9A9CD750B1B2624"
+    }
+  ]
+}

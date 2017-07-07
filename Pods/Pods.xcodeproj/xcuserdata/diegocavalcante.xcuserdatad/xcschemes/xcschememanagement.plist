@@ -14,15 +14,35 @@
 			<key>isShown</key>
 			<false/>
 		</dict>
+		<key>R.swift.Library.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>SVProgressHUD.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
+		<key>39CDB7E662E80F1BD29A548D7286179C</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>55E6FBBFBA52CF90F3600FC1253868EA</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
 		<key>9ECC94817EFB9DC0674D13D4C6D72DEF</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>E7516AED2C233BA20976C2CD95541DA0</key>
+		<key>EBEE91B39798222F7688A32B5A0BAC19</key>
 		<dict>
 			<key>primary</key>
 			<true/>

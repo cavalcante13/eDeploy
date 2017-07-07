@@ -9,8 +9,8 @@
 import UIKit
 
 class SearchViewController: UIViewController {
-    @IBOutlet weak var cityTextField: UITextField!
-    @IBOutlet weak var stateTextField: UITextField!
+    @IBOutlet weak var cityTextField: UITextField?
+    @IBOutlet weak var stateTextField: UITextField?
     
     
     override func viewDidLoad() {
@@ -18,6 +18,7 @@ class SearchViewController: UIViewController {
     }
     
     @IBAction func searchAction(_ sender: Any) {
-        
+        let viewController = SearchListViewController(city: "São Paulo", state: "São Paulo")
+        navigationController?.pushViewController(viewController, animated: true)
     }
 }

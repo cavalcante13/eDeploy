@@ -1,3 +1,18 @@
-PODFILE CHECKSUM: 76898aa7863cfd180f0ec478abc35f4c6c0af2b1
+PODS:
+  - R.swift (3.3.0):
+    - R.swift.Library (~> 3.0.2)
+  - R.swift.Library (3.0.2)
+  - SVProgressHUD (2.1.2)
+
+DEPENDENCIES:
+  - R.swift
+  - SVProgressHUD
+
+SPEC CHECKSUMS:
+  R.swift: bde9704d50ff36820f49e266bc88ef545e1e9b36
+  R.swift.Library: fbdec16c9802ad104fc1ba53415dc190e6ec5c73
+  SVProgressHUD: c404a55d78acbeb7ebb78b76d3faf986475a6994
+
+PODFILE CHECKSUM: 12e4a1397423b7f3bd848ba214b6ff7953a3ffaf
 
 COCOAPODS: 1.2.1

@@ -43,13 +43,14 @@ extension Restable {
             }
         
         var request = URLRequest(url: url)
-        request.httpMethod  = HttpMethod.Get.rawValue
+        request.httpMethod  = HttpMethod.Post.rawValue
         request.httpBody    = try? JSONSerialization.data(withJSONObject: params ?? [:], options: [])
         request.addValue("application/json", forHTTPHeaderField: "Content-Type")
         request.addValue("application/json", forHTTPHeaderField: "Accept")
         
         let session = URLSession.shared
-        session.dataTask(with: request) { (data, _, error) in
+        session.dataTask(with: request) { (data, response, error) in
+            
             let json = data.flatMap {
                 try? JSONSerialization.jsonObject(with: $0, options: [])
             }
