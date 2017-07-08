@@ -28,6 +28,8 @@ class SearchListViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        title = R.string.searchListViewController.resultado()
+        
         setup()
         register()
         loadAddress()
@@ -81,6 +83,8 @@ extension SearchListViewController : UITableViewDataSource, UITableViewDelegate 
     }
     
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        tableView.deselectRow(at: indexPath, animated: true)
         
+        navigationController?.pushViewController(PontuationListViewController(address : address.addresses[indexPath.item]), animated: true)
     }
 }

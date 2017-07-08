@@ -1,0 +1,12 @@
+/* 
+  PontuationListViewController.strings
+  TesteEdeploy
+
+  Created by Diego Cavalcante on 07/07/17.
+  Copyright © 2017 Diego Cavalcante. All rights reserved.
+*/
+
+
+
+"Resultado" = "Resultado";
+"A pontuação da cidade %@ é %@" = "A pontuação da cidade de %@ é %@";

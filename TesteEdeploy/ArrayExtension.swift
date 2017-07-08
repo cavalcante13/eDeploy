@@ -12,7 +12,7 @@ import Foundation
 extension Array where Element : Address {
     
     mutating func filter(by element : Element) {
-        let predicate = NSPredicate(format: "city contains[c] %@ OR state contains[c] %@", element.city ?? "", element.state ?? "")
+        let predicate = NSPredicate(format: "(city contains[cd] %@) OR (state contains[cd] %@)", element.city ?? "", element.state ?? "")
         self = (self as NSArray).filtered(using: predicate) as! [Element]
     }
 }

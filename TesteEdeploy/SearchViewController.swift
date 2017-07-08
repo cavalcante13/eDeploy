@@ -15,10 +15,14 @@ class SearchViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        title = R.string.searchViewController.busca()
     }
     
     @IBAction func searchAction(_ sender: Any) {
-        let viewController = SearchListViewController(city: "São Paulo", state: "São Paulo")
+        let city    = cityTextField?.text ?? ""
+        let state   = stateTextField?.text ?? ""
+        
+        let viewController = SearchListViewController(city: city, state: state)
         navigationController?.pushViewController(viewController, animated: true)
     }
 }

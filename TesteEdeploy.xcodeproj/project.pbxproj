@@ -15,7 +15,6 @@
 		C32ABA0B1F0FD8620097F79D /* SearchListTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C32ABA091F0FD8620097F79D /* SearchListTableViewCell.swift */; };
 		C32ABA0C1F0FD8620097F79D /* SearchListTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = C32ABA0A1F0FD8620097F79D /* SearchListTableViewCell.xib */; };
 		C32ABA1C1F100EE80097F79D /* Address.swift in Sources */ = {isa = PBXBuildFile; fileRef = C32ABA1B1F100EE80097F79D /* Address.swift */; };
-		C32ABA201F10225F0097F79D /* AppStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = C32ABA1E1F10225F0097F79D /* AppStyle.swift */; };
 		C32ABA221F10228E0097F79D /* EndPoint.strings in Resources */ = {isa = PBXBuildFile; fileRef = C32ABA211F10228E0097F79D /* EndPoint.strings */; };
 		C32ABA251F1023C90097F79D /* ArrayExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = C32ABA241F1023C90097F79D /* ArrayExtension.swift */; };
 		C32ABA271F1028900097F79D /* UIViewControllerExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = C32ABA261F1028900097F79D /* UIViewControllerExtension.swift */; };
@@ -28,6 +27,14 @@
 		C38620431F0F84C100DBDE24 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C38620421F0F84C100DBDE24 /* Assets.xcassets */; };
 		C38620461F0F84C100DBDE24 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C38620441F0F84C100DBDE24 /* LaunchScreen.storyboard */; };
 		C38620511F0F84C100DBDE24 /* TesteEdeployTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C38620501F0F84C100DBDE24 /* TesteEdeployTests.swift */; };
+		C3D4F1011F10523500B9D1AF /* AppStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3D4F1001F10523500B9D1AF /* AppStyle.swift */; };
+		C3D4F1031F10590900B9D1AF /* SearchViewController.strings in Resources */ = {isa = PBXBuildFile; fileRef = C3D4F1021F10590900B9D1AF /* SearchViewController.strings */; };
+		C3D4F1051F10592400B9D1AF /* SearchListViewController.strings in Resources */ = {isa = PBXBuildFile; fileRef = C3D4F1041F10592400B9D1AF /* SearchListViewController.strings */; };
+		C3D4F1091F105A2600B9D1AF /* PontuationListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3D4F1071F105A2600B9D1AF /* PontuationListViewController.swift */; };
+		C3D4F10A1F105A2600B9D1AF /* PontuationListViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C3D4F1081F105A2600B9D1AF /* PontuationListViewController.xib */; };
+		C3D4F10C1F105AAE00B9D1AF /* PontuationListViewController.strings in Resources */ = {isa = PBXBuildFile; fileRef = C3D4F10B1F105AAE00B9D1AF /* PontuationListViewController.strings */; };
+		C3D4F10E1F105AFD00B9D1AF /* Pontuation.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3D4F10D1F105AFD00B9D1AF /* Pontuation.swift */; };
+		C3D4F1101F10662A00B9D1AF /* DoubleExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3D4F10F1F10662A00B9D1AF /* DoubleExtension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,7 +60,6 @@
 		C32ABA091F0FD8620097F79D /* SearchListTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchListTableViewCell.swift; sourceTree = "<group>"; };
 		C32ABA0A1F0FD8620097F79D /* SearchListTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SearchListTableViewCell.xib; sourceTree = "<group>"; };
 		C32ABA1B1F100EE80097F79D /* Address.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Address.swift; sourceTree = "<group>"; };
-		C32ABA1E1F10225F0097F79D /* AppStyle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppStyle.swift; sourceTree = "<group>"; };
 		C32ABA211F10228E0097F79D /* EndPoint.strings */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; path = EndPoint.strings; sourceTree = "<group>"; };
 		C32ABA241F1023C90097F79D /* ArrayExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ArrayExtension.swift; sourceTree = "<group>"; };
 		C32ABA261F1028900097F79D /* UIViewControllerExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIViewControllerExtension.swift; sourceTree = "<group>"; };
@@ -70,6 +76,14 @@
 		C386204C1F0F84C100DBDE24 /* TesteEdeployTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TesteEdeployTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C38620501F0F84C100DBDE24 /* TesteEdeployTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TesteEdeployTests.swift; sourceTree = "<group>"; };
 		C38620521F0F84C100DBDE24 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C3D4F1001F10523500B9D1AF /* AppStyle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AppStyle.swift; path = TesteEdeploy/AppStyle.swift; sourceTree = SOURCE_ROOT; };
+		C3D4F1021F10590900B9D1AF /* SearchViewController.strings */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; path = SearchViewController.strings; sourceTree = "<group>"; };
+		C3D4F1041F10592400B9D1AF /* SearchListViewController.strings */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; path = SearchListViewController.strings; sourceTree = "<group>"; };
+		C3D4F1071F105A2600B9D1AF /* PontuationListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PontuationListViewController.swift; sourceTree = "<group>"; };
+		C3D4F1081F105A2600B9D1AF /* PontuationListViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PontuationListViewController.xib; sourceTree = "<group>"; };
+		C3D4F10B1F105AAE00B9D1AF /* PontuationListViewController.strings */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; path = PontuationListViewController.strings; sourceTree = "<group>"; };
+		C3D4F10D1F105AFD00B9D1AF /* Pontuation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Pontuation.swift; sourceTree = "<group>"; };
+		C3D4F10F1F10662A00B9D1AF /* DoubleExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DoubleExtension.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -123,7 +137,7 @@
 		C32ABA1F1F10225F0097F79D /* AppStyle */ = {
 			isa = PBXGroup;
 			children = (
-				C32ABA1E1F10225F0097F79D /* AppStyle.swift */,
+				C3D4F1001F10523500B9D1AF /* AppStyle.swift */,
 			);
 			name = AppStyle;
 			path = ../../PunkBeer/Punk;
@@ -134,6 +148,7 @@
 			children = (
 				C32ABA261F1028900097F79D /* UIViewControllerExtension.swift */,
 				C32ABA241F1023C90097F79D /* ArrayExtension.swift */,
+				C3D4F10F1F10662A00B9D1AF /* DoubleExtension.swift */,
 			);
 			name = Extensions;
 			sourceTree = "<group>";
@@ -151,6 +166,7 @@
 			children = (
 				C32ABA051F0FD7840097F79D /* SearchListViewController.swift */,
 				C32ABA061F0FD7840097F79D /* SearchListViewController.xib */,
+				C3D4F1041F10592400B9D1AF /* SearchListViewController.strings */,
 				C32AB9FD1F0FD6150097F79D /* Views */,
 			);
 			name = "Search List";
@@ -169,6 +185,7 @@
 			isa = PBXGroup;
 			children = (
 				C32ABA1B1F100EE80097F79D /* Address.swift */,
+				C3D4F10D1F105AFD00B9D1AF /* Pontuation.swift */,
 			);
 			name = Models;
 			sourceTree = "<group>";
@@ -232,6 +249,7 @@
 			children = (
 				C386205D1F0F852E00DBDE24 /* Search */,
 				C379C5741F0F8AEF00EC7B15 /* Search List */,
+				C3D4F1061F1059D100B9D1AF /* Pontuation City */,
 			);
 			name = Scenes;
 			sourceTree = "<group>";
@@ -241,8 +259,19 @@
 			children = (
 				C379C5701F0F86F300EC7B15 /* SearchViewController.swift */,
 				C379C5711F0F86F300EC7B15 /* SearchViewController.xib */,
+				C3D4F1021F10590900B9D1AF /* SearchViewController.strings */,
 			);
 			name = Search;
+			sourceTree = "<group>";
+		};
+		C3D4F1061F1059D100B9D1AF /* Pontuation City */ = {
+			isa = PBXGroup;
+			children = (
+				C3D4F1071F105A2600B9D1AF /* PontuationListViewController.swift */,
+				C3D4F1081F105A2600B9D1AF /* PontuationListViewController.xib */,
+				C3D4F10B1F105AAE00B9D1AF /* PontuationListViewController.strings */,
+			);
+			name = "Pontuation City";
 			sourceTree = "<group>";
 		};
 		D0F3739A5530DD323B053E3B /* Pods */ = {
@@ -346,10 +375,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C3D4F1031F10590900B9D1AF /* SearchViewController.strings in Resources */,
 				C32ABA081F0FD7840097F79D /* SearchListViewController.xib in Resources */,
+				C3D4F1051F10592400B9D1AF /* SearchListViewController.strings in Resources */,
 				C38620461F0F84C100DBDE24 /* LaunchScreen.storyboard in Resources */,
 				C379C5731F0F86F300EC7B15 /* SearchViewController.xib in Resources */,
 				C32ABA0C1F0FD8620097F79D /* SearchListTableViewCell.xib in Resources */,
+				C3D4F10C1F105AAE00B9D1AF /* PontuationListViewController.strings in Resources */,
+				C3D4F10A1F105A2600B9D1AF /* PontuationListViewController.xib in Resources */,
 				C38620431F0F84C100DBDE24 /* Assets.xcassets in Resources */,
 				C32ABA221F10228E0097F79D /* EndPoint.strings in Resources */,
 			);
@@ -476,11 +509,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C3D4F1101F10662A00B9D1AF /* DoubleExtension.swift in Sources */,
 				C32ABA1C1F100EE80097F79D /* Address.swift in Sources */,
-				C32ABA201F10225F0097F79D /* AppStyle.swift in Sources */,
+				C3D4F1091F105A2600B9D1AF /* PontuationListViewController.swift in Sources */,
 				C32ABA071F0FD7840097F79D /* SearchListViewController.swift in Sources */,
 				C379C57C1F0F8CF700EC7B15 /* Restable.swift in Sources */,
+				C3D4F1011F10523500B9D1AF /* AppStyle.swift in Sources */,
 				C32ABA041F0FD6D00097F79D /* R.generated.swift in Sources */,
+				C3D4F10E1F105AFD00B9D1AF /* Pontuation.swift in Sources */,
 				C386203C1F0F84C100DBDE24 /* AppDelegate.swift in Sources */,
 				C379C5721F0F86F300EC7B15 /* SearchViewController.swift in Sources */,
 				C32ABA0B1F0FD8620097F79D /* SearchListTableViewCell.swift in Sources */,

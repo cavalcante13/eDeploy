@@ -36,14 +36,21 @@ struct R: Rswift.Validatable {
     fileprivate init() {}
   }
   
-  /// This `R.nib` struct is generated, and contains static references to 3 nibs.
+  /// This `R.nib` struct is generated, and contains static references to 4 nibs.
   struct nib {
+    /// Nib `PontuationListViewController`.
+    static let pontuationListViewController = _R.nib._PontuationListViewController()
     /// Nib `SearchListTableViewCell`.
     static let searchListTableViewCell = _R.nib._SearchListTableViewCell()
     /// Nib `SearchListViewController`.
     static let searchListViewController = _R.nib._SearchListViewController()
     /// Nib `SearchViewController`.
     static let searchViewController = _R.nib._SearchViewController()
+    
+    /// `UINib(name: "PontuationListViewController", in: bundle)`
+    static func pontuationListViewController(_: Void = ()) -> UIKit.UINib {
+      return UIKit.UINib(resource: R.nib.pontuationListViewController)
+    }
     
     /// `UINib(name: "SearchListTableViewCell", in: bundle)`
     static func searchListTableViewCell(_: Void = ()) -> UIKit.UINib {
@@ -89,7 +96,7 @@ struct R: Rswift.Validatable {
     fileprivate init() {}
   }
   
-  /// This `R.string` struct is generated, and contains static references to 1 localization tables.
+  /// This `R.string` struct is generated, and contains static references to 4 localization tables.
   struct string {
     /// This `R.string.endPoint` struct is generated, and contains static references to 2 localization keys.
     struct endPoint {
@@ -106,6 +113,52 @@ struct R: Rswift.Validatable {
       /// Value: http://wsteste.devedp.com.br/Master/CidadeServico.svc/rest/BuscaTodasCidades
       static func buscarTodasCidades(_: Void = ()) -> String {
         return NSLocalizedString("BuscarTodasCidades", tableName: "EndPoint", bundle: R.hostingBundle, comment: "")
+      }
+      
+      fileprivate init() {}
+    }
+    
+    /// This `R.string.pontuationListViewController` struct is generated, and contains static references to 2 localization keys.
+    struct pontuationListViewController {
+      /// Value: A pontuação da cidade de %@ é %@
+      static let aPontuaçãoDaCidadeÉ = Rswift.StringResource(key: "A pontuação da cidade %@ é %@", tableName: "PontuationListViewController", bundle: R.hostingBundle, locales: [], comment: nil)
+      /// Value: Resultado
+      static let resultado = Rswift.StringResource(key: "Resultado", tableName: "PontuationListViewController", bundle: R.hostingBundle, locales: [], comment: nil)
+      
+      /// Value: A pontuação da cidade de %@ é %@
+      static func aPontuaçãoDaCidadeÉ(_ value1: String, _ value2: String) -> String {
+        return String(format: NSLocalizedString("A pontuação da cidade %@ é %@", tableName: "PontuationListViewController", bundle: R.hostingBundle, comment: ""), locale: R.applicationLocale, value1, value2)
+      }
+      
+      /// Value: Resultado
+      static func resultado(_: Void = ()) -> String {
+        return NSLocalizedString("Resultado", tableName: "PontuationListViewController", bundle: R.hostingBundle, comment: "")
+      }
+      
+      fileprivate init() {}
+    }
+    
+    /// This `R.string.searchListViewController` struct is generated, and contains static references to 1 localization keys.
+    struct searchListViewController {
+      /// Value: Resultado
+      static let resultado = Rswift.StringResource(key: "Resultado", tableName: "SearchListViewController", bundle: R.hostingBundle, locales: [], comment: nil)
+      
+      /// Value: Resultado
+      static func resultado(_: Void = ()) -> String {
+        return NSLocalizedString("Resultado", tableName: "SearchListViewController", bundle: R.hostingBundle, comment: "")
+      }
+      
+      fileprivate init() {}
+    }
+    
+    /// This `R.string.searchViewController` struct is generated, and contains static references to 1 localization keys.
+    struct searchViewController {
+      /// Value: Busca
+      static let busca = Rswift.StringResource(key: "Busca", tableName: "SearchViewController", bundle: R.hostingBundle, locales: [], comment: nil)
+      
+      /// Value: Busca
+      static func busca(_: Void = ()) -> String {
+        return NSLocalizedString("Busca", tableName: "SearchViewController", bundle: R.hostingBundle, comment: "")
       }
       
       fileprivate init() {}
@@ -129,6 +182,17 @@ struct R: Rswift.Validatable {
 
 struct _R {
   struct nib {
+    struct _PontuationListViewController: Rswift.NibResourceType {
+      let bundle = R.hostingBundle
+      let name = "PontuationListViewController"
+      
+      func firstView(owner ownerOrNil: AnyObject?, options optionsOrNil: [NSObject : AnyObject]? = nil) -> UIKit.UIView? {
+        return instantiate(withOwner: ownerOrNil, options: optionsOrNil)[0] as? UIKit.UIView
+      }
+      
+      fileprivate init() {}
+    }
+    
     struct _SearchListTableViewCell: Rswift.NibResourceType, Rswift.ReuseIdentifierType {
       typealias ReusableType = SearchListTableViewCell
       
